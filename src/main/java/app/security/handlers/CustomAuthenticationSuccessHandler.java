@@ -22,7 +22,7 @@ public class CustomAuthenticationSuccessHandler implements AuthenticationSuccess
 	private final RedirectStrategy redirectStrategy = new DefaultRedirectStrategy();
 
 
-	/*выполняется в случае неудачной авторизации пользователя*/
+	/*выполняется в случае удачной авторизации пользователя*/
 	@Override
 	public void onAuthenticationSuccess(HttpServletRequest httpServletRequest,
 										HttpServletResponse httpServletResponse,
